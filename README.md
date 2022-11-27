@@ -14,3 +14,5 @@ The above-depicted Inception module simultaneously performs 1 * 1 convolutions, 
 Thereafter, it sums up the outputs from all the operations in a single place and builds the next feature. The architecture does not follow the Sequential model approach where every operation such as pooling or convolution is performed one after the other.
 
 The Inception module with dimension reduction works in a similar manner as the naïve one with only one difference. Here features are extracted on a pixel level using 1 * 1 convolutions before the 3 * 3 convolutions and 5 * 5 convolutions. When the 1 * 1 convolution operation has been performed the dimension of the image is not changed. However, the output achieved offers better accuracy.
+
+For more information visit : https://www.linkedin.com/pulse/going-deeper-convolutions-inception-googlenet-ayoub-kirouane
